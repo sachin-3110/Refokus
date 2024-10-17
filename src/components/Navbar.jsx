@@ -5,7 +5,7 @@ function Navbar() {
     <div className='max-w-screen-xl h-[7.5%] mx-auto px-4 border-b-2 pb-2 border-zinc-900'>
       <div className='w-[100%] h-[100%] flex items-center pt-2'>
         <div id="nleft" className='w-[100%] h-[100%] flex items-center'>
-        <img className='h-[1.3rem] md:pr-10' src="..src/assets/logo.png" />
+        <img className='h-[1.3rem] md:pr-10' src="../src/assets/logo.png" />
         <div className='md:w-[40%] w-[100%] md:flex justify-between hidden'>
             {["Home","Work","Culture","","News"].map((ele,index)=>(
                 ele.length===0 ? <span key={index} className='lg:flex hidden h-5 w-1 bg-zinc-900 rounded-full md:-mx-12'></span> :
