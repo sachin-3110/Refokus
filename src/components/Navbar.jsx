@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from './Button'
-import refokusLogo from '../assets/Refokus.jpg'
+import refokusLogo from '../assets/Refokus.png'
 function Navbar() {
   return (
     <div className='max-w-screen-xl h-[7.5%] mx-auto px-4 border-b-2 pb-2 border-zinc-900'>
